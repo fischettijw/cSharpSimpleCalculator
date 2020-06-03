@@ -36,10 +36,10 @@
             this.BtnMult = new System.Windows.Forms.Button();
             this.TxtFirstNum = new System.Windows.Forms.TextBox();
             this.GbxCalc = new System.Windows.Forms.GroupBox();
+            this.RbHidden = new System.Windows.Forms.RadioButton();
             this.RbMult = new System.Windows.Forms.RadioButton();
             this.RbSub = new System.Windows.Forms.RadioButton();
             this.RbAdd = new System.Windows.Forms.RadioButton();
-            this.RbHidden = new System.Windows.Forms.RadioButton();
             this.GbxCalc.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,6 +134,17 @@
             this.GbxCalc.TabStop = false;
             this.GbxCalc.Text = "Math OP";
             // 
+            // RbHidden
+            // 
+            this.RbHidden.AutoSize = true;
+            this.RbHidden.Location = new System.Drawing.Point(266, 36);
+            this.RbHidden.Name = "RbHidden";
+            this.RbHidden.Size = new System.Drawing.Size(14, 13);
+            this.RbHidden.TabIndex = 3;
+            this.RbHidden.TabStop = true;
+            this.RbHidden.UseVisualStyleBackColor = true;
+            this.RbHidden.Visible = false;
+            // 
             // RbMult
             // 
             this.RbMult.AutoSize = true;
@@ -169,17 +180,6 @@
             this.RbAdd.Text = "Add";
             this.RbAdd.UseVisualStyleBackColor = true;
             this.RbAdd.CheckedChanged += new System.EventHandler(this.RbAdd_CheckedChanged);
-            // 
-            // RbHidden
-            // 
-            this.RbHidden.AutoSize = true;
-            this.RbHidden.Location = new System.Drawing.Point(266, 36);
-            this.RbHidden.Name = "RbHidden";
-            this.RbHidden.Size = new System.Drawing.Size(14, 13);
-            this.RbHidden.TabIndex = 3;
-            this.RbHidden.TabStop = true;
-            this.RbHidden.UseVisualStyleBackColor = true;
-            this.RbHidden.Visible = false;
             // 
             // FrmSimpleCalculator
             // 

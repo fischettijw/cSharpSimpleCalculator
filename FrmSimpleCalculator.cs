@@ -19,9 +19,9 @@ namespace cSharpSimpleCalculator
 
         private void FrmSimpleCalculator_Load(object sender, EventArgs e)
         {
-            TxtFirstNum.Text = "0";
-            TxtSecondNum.Text = "0";
-            LblAnswer.Text = "0";
+            TxtFirstNum.Text = "8";
+            TxtSecondNum.Text = "12";
+            LblAnswer.Text = "";
             ResetButtons();
         }
 
@@ -89,6 +89,11 @@ namespace cSharpSimpleCalculator
         private void RbMult_CheckedChanged(object sender, EventArgs e)
         {
             if (RbMult.Checked) BtnMult.PerformClick();
+        }
+
+        private void RbCheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
